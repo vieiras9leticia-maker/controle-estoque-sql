@@ -17,7 +17,7 @@ Criar uma estrutura de banco de dados para controlar produtos, categorias, forne
   - Criação de tabelas
   - Chaves primárias
   - Chaves estrangeiras
-  - ISERT
+  - INSERT
   - SELECT
   - UPDATE
   - DELETE
