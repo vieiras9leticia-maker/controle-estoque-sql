@@ -1,4 +1,4 @@
-# 📦 Controle de Estoque SQL
+#  Controle de Estoque SQL
 
 Projeto desenvolvido para praticar Banco de Dados, SQL e análise de informações de estoque, simulando um cenário empresarial de controle de produtos.
 
@@ -6,7 +6,7 @@ O projeto foi desenvolvido durante minha formação em Tecnologia da Informaçã
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Criar e consultar uma estrutura de banco de dados para controle de estoque, permitindo armazenar informações sobre:
 
@@ -22,7 +22,7 @@ O projeto também busca simular situações comuns encontradas em ambientes empr
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - SQL
 - SQL Server
@@ -32,7 +32,7 @@ O projeto também busca simular situações comuns encontradas em ambientes empr
 
 ---
 
-## 📚 Conteúdos praticados
+##  Conteúdos praticados
 
 Durante o desenvolvimento foram praticados conceitos fundamentais de SQL e Banco de Dados:
 
@@ -62,7 +62,7 @@ Durante o desenvolvimento foram praticados conceitos fundamentais de SQL e Banco
 
 ---
 
-## 📂 Estrutura do projeto
+##  Estrutura do projeto
 
 ```text
 controle-estoque-sql/
