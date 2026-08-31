@@ -1,16 +1,4 @@
-# controle-estoque-sql
-Projeto de estudo em SQL para controle e análise de estoque
-## Objetivo
-
-Criar uma estrutura de banco de dados para controlar produtos, categorias, fornecedores e movimentações de estoque.
-
-## Tecnologias
-
-- SQL
-- SQL Server
-- Banco de dados Relacional
-- Git
-- GitHub# 📦 Controle de Estoque SQL
+# 📦 Controle de Estoque SQL
 
 Projeto desenvolvido para praticar Banco de Dados, SQL e análise de informações de estoque, simulando um cenário empresarial de controle de produtos.
 
