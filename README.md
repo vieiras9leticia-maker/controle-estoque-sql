@@ -64,13 +64,11 @@ Durante o desenvolvimento foram praticados conceitos fundamentais de SQL e Banco
 
 ##  Estrutura do projeto
 
-```text
-controle-estoque-sql/
-│
-├── 01_criacao_banco.sql
-├── 02_insercao_dados.sql
-├── 03_consultas.sql
-├── 04_consultas_join.sql
-├── 05_agrupamento.sql
-├── 06_analise_estoque.sql
-└── README.md
+01_criacao_banco.sql — Criação do banco e tabelas
+02_insercao_dados.sql — Inserção dos dados
+03_consultas.sql — Consultas básicas
+04_consultas_join.sql — Consultas utilizando JOIN
+05_agrupamento.sql — Agrupamentos e funções de agregação
+06_analise_estoque.sql — Análises de estoque
+07_relatorio_estoque.sql — Relatório gerencial de estoque
+README.md — Documentação do projeto
