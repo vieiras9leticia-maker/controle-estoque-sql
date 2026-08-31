@@ -1,4 +1,4 @@
-#  Controle de Estoque SQL
+## Controle de Estoque SQL
 
 Projeto desenvolvido para praticar Banco de Dados, SQL e análise de informações de estoque, simulando um cenário empresarial de controle de produtos.
 
