@@ -70,5 +70,7 @@ Durante o desenvolvimento foram praticados conceitos fundamentais de SQL e Banco
  - 04_consultas_join.sql — Consultas utilizando JOIN
  - 05_agrupamento.sql — Agrupamentos e funções de agregação
  - 06_analise_estoque.sql — Análises de estoque
- - 07_relatorio_estoque.sql — Relatório gerencial de estoque
+ - 07_views.sql - Views
+ - 08_consultas_avancadas.sql - Consultas mais avançadas
+ - 09_procedures.sql - Stored Procedures
  - README.md — Documentação do projeto
