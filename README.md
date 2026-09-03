@@ -1,76 +1,62 @@
 ## Controle de Estoque SQL
 
-Projeto desenvolvido para praticar Banco de Dados, SQL e análise de informações de estoque, simulando um cenário empresarial de controle de produtos.
+Projeto prático de modelagem relacional, consultas analíticas e automação de regras de negócio em banco de dados, simulando a gestão real de inventário e reposição de produtos.
 
-O projeto foi desenvolvido durante minha formação em Tecnologia da Informação, com foco no desenvolvimento das habilidades necessárias para atuar profissionalmente na área de Dados, Banco de Dados e Business Intelligence.
+Desenvolvido para consolidar competências essenciais para atuação profissional nas áreas de **Análise de Dados**, **Banco de Dados** e **Business Intelligence**.
 
 ---
 
 ##  Objetivo
 
-Criar e consultar uma estrutura de banco de dados para controle de estoque, permitindo armazenar informações sobre:
+Modelar e consultar uma base relacional para controle de estoque capaz de:
 
-- Produtos
-- Categorias
-- Quantidade em estoque
-- Estoque mínimo
-- Preços
-- Relacionamentos entre tabelas
-- Análises e consultas de estoque
-
-O projeto também busca simular situações comuns encontradas em ambientes empresariais, como identificação de produtos que precisam de reposição e análise do valor armazenado em estoque.
+* Gerenciar produtos, categorias, preços de venda e níveis de estoque.
+* Garantir integridade referencial entre entidades via chaves primárias e estrangeiras.
+* Identificar itens críticos abaixo do estoque mínimo para evitar ruptura.
+* Calcular o valor total imobilizado em estoque por categoria e produto.
+* Automatizar relatórios executivos e rotinas operacionais via Views e Stored Procedures.
 
 ---
 
-##  Tecnologias utilizadas
+##  Tecnologias Utilizadas
 
-- SQL
-- SQL Server
-- Banco de Dados Relacional
-- Git
-- GitHub
-
----
-
-##  Conteúdos praticados
-
-Durante o desenvolvimento foram praticados conceitos fundamentais de SQL e Banco de Dados:
-
-- Criação de banco de dados
-- Criação de tabelas
-- Chaves primárias
-- Chaves estrangeiras
-- Relacionamentos entre tabelas
-- INSERT
-- SELECT
-- UPDATE
-- DELETE
-- WHERE
-- ORDER BY
-- JOIN
-- INNER JOIN
-- GROUP BY
-- HAVING
-- Funções de agregação
-- COUNT()
-- SUM()
-- AVG()
-- MAX()
-- MIN()
-- Subconsultas
-- Consultas para análise de estoque
+* **SGBD:** Microsoft SQL Server
+* **Interface de Gestão:** SQL Server Management Studio (SSMS)
+* **Linguagem:** SQL / T-SQL
+* **Versionamento:** Git e GitHub
 
 ---
 
-##  Estrutura do projeto
+##  Conceitos e Habilidades Praticadas
 
- - 01_criacao_banco.sql — Criação do banco e tabelas
- - 02_insercao_dados.sql — Inserção dos dados
- - 03_consultas.sql — Consultas básicas
- - 04_consultas_join.sql — Consultas utilizando JOIN
- - 05_agrupamento.sql — Agrupamentos e funções de agregação
- - 06_analise_estoque.sql — Análises de estoque
- - 07_views.sql - Views
- - 08_consultas_avancadas.sql - Consultas mais avançadas
- - 09_procedures.sql - Stored Procedures
- - README.md — Documentação do projeto
+* **Modelagem Relacional (DDL):** Criação de bancos, tabelas, tipos de dados, chaves primárias (`PRIMARY KEY`) e chaves estrangeiras (`FOREIGN KEY`).
+* **Manipulação de Dados (DML):** Cargas iniciais de registros (`INSERT`) e atualizações de dados (`UPDATE`).
+* **Filtros e Ordenação:** Consultas condicionais (`WHERE`, `LIKE`, operadores lógicos) e ordenação (`ORDER BY`).
+* **Cruzamento de Tabelas (Joins):** Junções de dados relacionais via `INNER JOIN` e `LEFT JOIN`.
+* **Agregações e Métricas:** Agrupamento por categorias (`GROUP BY`), filtros sobre grupos (`HAVING`) e funções agregadas (`COUNT`, `SUM`, `AVG`, `MAX`, `MIN`).
+* **Lógica Avançada:** Classificação condicional de estoque com `CASE WHEN`, Subqueries, CTEs (`WITH`) e Funções de Janela (`DENSE_RANK`).
+* **Automação no Banco:** Criação de Visões (`VIEWS`) para consultas frequentes e Procedimentos Armazenados (`STORED PROCEDURES`) com parâmetros de entrada.
+
+---
+
+##  Estrutura do Projeto
+
+| Arquivo | Descrição |
+| :--- | :--- |
+| `01_criacao_banco.sql` | Criação do banco de dados e modelagem das tabelas. |
+| `02_insercao_dados.sql` | Carga inicial com registros fictícios de produtos e categorias. |
+| `03_consultas.sql` | Consultas com filtros básicos, buscas e ordenação. |
+| `04_consultas_join.sql` | Consultas relacionando produtos e categorias via chaves estrangeiras. |
+| `05_agrupamento.sql` | Métricas agregadas por categoria e filtros de agrupamento. |
+| `06_analise_estoque.sql` | Análise de valor total estocado e classificação de risco com `CASE WHEN`. |
+| `07_views.sql` | Views para relatórios gerenciais e acompanhamento de reposição. |
+| `08_consultas_avancadas.sql` | Subconsultas, CTEs e ranking por categoria via Window Functions. |
+| `09_procedimentos.sql` | Stored Procedures parametrizadas para entrada de itens e reajustes em lote. |
+| `README.md` | Documentação técnica e apresentação do projeto. |
+
+---
+
+##  Como Executar
+
+1. Abra o **SQL Server Management Studio (SSMS)** e conecte-se à sua instância local.
+2. Abra e execute os scripts na sequência numérica indicada (`01` a `09`).
