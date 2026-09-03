@@ -60,3 +60,15 @@ Modelar e consultar uma base relacional para controle de estoque capaz de:
 
 1. Abra o **SQL Server Management Studio (SSMS)** e conecte-se à sua instância local.
 2. Abra e execute os scripts na sequência numérica indicada (`01` a `09`).
+
+---
+
+## Evidências de Execução no SQL Server
+
+<img width="734" height="134" alt="image" src="https://github.com/user-attachments/assets/4a3a50b8-a4a6-4e12-96e4-d6a572845c8c" />
+
+
+
+
+<img width="475" height="274" alt="image" src="https://github.com/user-attachments/assets/9be7d277-14b3-4161-9c2a-21d7e5aaed8b" />
+
